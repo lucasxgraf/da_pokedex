@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: black;
 }
 
 body{
@@ -20,7 +21,8 @@ nav img{
   width: 200px;
 }
 
-main img{
+/* Header Img and Searchbar */
+.hero-image{
   height: 150px;
   width: 500px;
   display: block;
@@ -32,3 +34,45 @@ main form{
   margin: 0 auto 0 auto;
 }
 
+main form svg path{
+  color: white;
+}
+
+/* Pokedex-Container */
+#pokedex-render-container{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.pokemon-render-result-container{
+  min-width: 20%;
+  padding-top: 40px;
+  position: relative;
+  cursor: pointer;
+  transition-duration: 100ms;
+  flex: 0.5 1 0%;
+  margin: 60px 10px 10px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: white;
+  border-image: initial;
+}
+
+.search-pokemon-image{
+  position: absolute;
+  top: -55px;
+  image-rendering: pixelated;
+  transition-duration: 100ms;
+  width: 96px;
+  height: 96px;
+}
+
+.type-container{
+  font-weight: 600;
+  font-size: 14px;
+  opacity: 0.8;
+  border-radius: 5px;
+  padding: 3px 7px;
+  margin: 10px 5px 5px;
+}
