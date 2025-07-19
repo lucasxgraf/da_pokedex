@@ -43,6 +43,7 @@ main form svg path{
   display: flex;
   flex-flow: wrap;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .pokemon-render-result-container{
@@ -62,7 +63,6 @@ main form svg path{
 .search-pokemon-image{
   position: absolute;
   top: -55px;
-  image-rendering: pixelated;
   transition-duration: 100ms;
   width: 96px;
   height: 96px;
@@ -75,4 +75,9 @@ main form svg path{
   border-radius: 5px;
   padding: 3px 7px;
   margin: 10px 5px 5px;
+}
+
+.type-container:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
