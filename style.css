@@ -53,7 +53,7 @@ main form svg path{
   cursor: pointer;
   transition-duration: 100ms;
   flex: 0.5 1 0%;
-  margin: 60px 10px 10px;
+  margin: 60px 16px 16px;
   border-width: 2px;
   border-style: solid;
   border-color: white;
@@ -80,4 +80,15 @@ main form svg path{
 .type-container:hover {
   transform: translateY(-1px);
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.position-btn-navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 32px 16px;
+}
+
+.btn-navigation{
+  width: 150px;
 }
