@@ -28,6 +28,14 @@ function renderPokemonContainer() {
   }
 }
 
+function renderNewPokemons(startIndex) {
+  let contentRef = document.getElementById("pokedex-render-container");
+  
+  for(let index = startIndex; index < pokemons.length; index++) {
+      contentRef.innerHTML += getPokedexTemplate(index);
+  }
+}
+
 function getPokedexTemplate(index) {
   const pokemon = pokemons[index];
   
