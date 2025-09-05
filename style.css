@@ -133,11 +133,11 @@ color: white;
 
 #loading-spinner {
   display: none; /* Initial versteckt */
-  padding: 60px 0;
+  padding: 40px 0;
   background: rgba(221, 9, 47, 0.9); /* Leicht transparenter roter Hintergrund */
   border-radius: 15px;
   margin: 40px auto;
-  width: 200px;
+  width: 400px;
   backdrop-filter: blur(5px);
   border: 2px solid white;
 }
@@ -159,7 +159,7 @@ color: white;
 }
 
 /* Loading-Text unter dem Spinner */
-.loading-text {
+.spinner-text {
   color: white;
   font-weight: bold;
   margin-top: 15px;
